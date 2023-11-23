@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-brand {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.sp {
+  color: rgb(228, 0, 0);
+}
+.title_name {
+  font-weight: bold;
+  font-size: 70px;
+  padding: 0;
+  font-family: "Amatic SC", sans-serif;
+}
+.content p {
+  font-size: 20px;
+  color: rgb(86, 85, 85);
+  font-family: "Courgette", cursive;
+}
+#s1 {
+  background: rgb(237, 237, 237);
+}
+.bat {
+  padding: 8px 20px;
+  box-shadow: 0 0 8px rgb(138, 138, 138);
+}
+.bat,
+.bt {
+  font-size: 14px;
+  font-weight: 500;
+  max-width: 10rem;
+  max-height: 3rem;
+  background: rgb(228, 0, 0);
+  color: rgb(255, 255, 255);
+  border-radius: 50px;
+  border-style: none;
+  transition: 0.2s;
+}
+.bt {
+  padding: 12px 36px;
+  box-shadow: 0 8px 25px rgb(243, 99, 99);
+}
+.bat:hover,
+.bt:hover {
+  background: rgb(240, 79, 79);
+}
+.food {
+  object-fit: cover;
+  max-width: 25rem;
+}
+.nd {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(169, 169, 169);
+  font-weight: 500;
+  margin-top: 2px;
+  cursor: pointer;
+}
+#nav {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: rgb(169, 169, 169);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
+#nav:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(228, 0, 0);
+  height: 5px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+#nav:hover:after {
+  width: 100%;
+}
+.dropdown-item {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: 0.5s;
+}
+.dropdown-item:hover {
+  background-color: rgb(228, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#sh2 {
+  color: rgb(99, 94, 94);
+  font-size: 12px;
+}
+#s2 {
+  color: rgb(99, 94, 94);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Amatic SC", sans-serif;
+}
+.cont {
+  font-size: 15px;
+  font-family: "Courgette", cursive;
+}
+.ic {
+  font-size: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.icon {
+  font-size: 35px;
+  color: rgb(228, 0, 0);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+.cont .bi {
+  color: rgb(228, 0, 0);
+  font-size: 15px;
+}
